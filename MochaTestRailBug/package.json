@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "0.0.0",
+  "description": "A Starter Node API test",
+  "private:": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^3.4.2",
+    "mocha-testrail-reporter": "^1.0.10",
+    "mochawesome": "^2.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15 D.1",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "chai-json-schema": "^1.4.0",
+    "config": "^1.20.1",
+    "config-json": "^1.0.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "exampleRequestTR": "mocha test/example.js --reporter mocha-testrail-reporter --reporter-options domain=iscs.testrail.net,username=qa@iscs.com,password=1S.JW6BP36kAqS6fLLYs-kIjrerwnjz/bIHTF3O9.,projectId=10,suiteId=21"
+  }
+}
