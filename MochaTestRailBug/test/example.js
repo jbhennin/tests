@@ -12,7 +12,7 @@ describe("Bad Http", function () {
         chai.request('https://google.com')
             .get('/img.png')
             .end(function(err,res){
-                expect(res).to.have.status(200);
+                expect(res).to.have.status(404);
 
                 done()
             })
